@@ -1,0 +1,157 @@
+﻿Criado;Tipo de item;Resumo Composto;Descrição
+22/05/2024 10:26;Bug;"Mensageria - Botão ""Queremos te ouvir!""";"Não tem URL no botão “Avalie aqui”, sem ação.
+
+Após o cidadão receber o e-mail para avaliação, ao clicar no botão “Avalie aqui”, não aponta para a página de avaliação porque o botão está “vazio”. 
+
+No botão não há link apontando para a página de avaliação."
+18/01/2024 10:58;Bug;Director - falta unidade na visão quantidade de solicitações finalizadas e tempo funcionários;!image-20240118-135618.png|width=1255,height=440!
+09/02/2024 12:17;Bug;Mensageria - SMS não está sendo enviado para o cidadão;Ao abrir uma solicitação, os cidadãos não estão recebendo SMS.
+26/02/2024 13:35;Bug;Director - ASSÍNCRONO - Relatório de faturamento;"Relatório dos serviços assíncronos tratados pelo BO Digital com visões aonde mostram solicitações e análise. Para os relatórios de produção de funcionário e atendimentos do BO Digital referente ao faturamento deverão considerar o quantitativo de análises. 
+
+Junto com o relatório deverá ser entregue a documentação explicativa de cada cálculo e visão apresentada."
+29/02/2024 08:05;Bug;Atende - Pesquisar não está trazendo o período correto;"Independente do período colocado no campo pesquisar da tela “Consultar os atendimentos virtuais” o sistema está retornado a partir da data 16/fev e data final correta.
+
+!image-20240229-111052.png|width=1215,height=367!"
+11/03/2024 12:18;Bug;Videoconferência - Problema no áudio quando cidadão está acessando pelo IOS/Safari - Portal WEB;
+11/03/2024 14:47;Bug;Videoconferência - Problema no áudio e vídeo quando atendente utiliza navegador Firefox - Interface do atendente;Estes problemas aconteceram na rodada de testes com SO e navegadores atualizados.
+03/10/2023 15:57;Bug;Director - Erro ao tentar exportar relatório GA em PDF com filtro virtual;!image-20240222-140132.png|width=1259,height=207!
+09/04/2024 13:38;Bug;Interface Cidadão - Erro no nome do cidadão na página de serviço;"Na página de serviço o cadastro do usuário está incorreto. Está duplicando o sobrenome. 
+
+O solicitante informa que o erro acontece para quem usa o APP.
+
+!image-20240409-163752.png|width=813,height=234,alt=""image-20240409-163752.png""!"
+09/04/2024 18:16;Bug;Interface Cidadão - Está permitindo criar solicitação de serviços assíncronos em duplicidade;"Quando o usuário está com duas abas do mesmo serviço aberta e clica em finalizar para ambas, o sistema está permitindo criar duas solicitações para o mesmo serviço. Além do bloqueio de acesso em duplicidade quando acessa a página, precisa também configurar a restrição na ação do botão finalizar e também na integração junto ao APP.
+
+!image-20240409-211852.png|width=880,height=462,alt=""image-20240409-211852.png""!"
+16/04/2024 11:31;Bug;Mensageria - Não enviado e-mails e SMS para cancelamento devido revogação no portal;
+16/04/2024 16:29;Bug;Interface Cidadão - Não está apresentando documento devolvido com a marcação do BO Digital;"Dado que a imagem deverá ser enviada junto com o retorno escrito pelo analista, identificamos que o serviço apresentado não está em funcionamento correto.
+
+
+
+O esperado é que na mensagem enviada seja sempre acompanhada pelo arquivo editado pelo analista indicando o que precisa ser ajustado pelo cidadão.
+
+
+
+
+
+!image-20240503-151010.png|width=781,height=363,alt=""image-20240503-151010.png""!"
+24/04/2024 08:48;Bug;Avaliação de atendimento - Erro ao tentar avaliar um atendimento de serviço assíncrono pelo portal;"Erro ao tentar avaliar um serviço assíncrono concluído através do meu RJ, ao clicar em avaliar abre a página de avaliação com erro.
+
+
+
+!image-20240424-114923.png|width=1213,height=608,alt=""image-20240424-114923.png""!
+
+
+
+!image-20240424-114957.png|width=1253,height=584,alt=""image-20240424-114957.png""!"
+22/03/2024 16:41;Bug;Agendamento - erro ao pesquisar consulta capacidade das agendas;!image-20240322-194102.png|width=1199,height=553!
+02/05/2024 11:48;Bug;Videoconferência - Chamada de vídeo apresentando tela preta;"[~accountid:712020:4c055140-26b4-49a6-a761-72bd0e329527] informa que no dia de hoje está recorrente, e é um tema que voltou a aparecer. O erro acontece para o cidadão em casa e também na unidade.
+
+Quando o cidadão sai da chamada e retorna o erro some."
+03/05/2024 14:07;Bug;Interface Cidadão - Tela de conclusão fora do padrão utilizado para serviços assíncronos;"A tela de conclusão da abertura da solicitação está diferente do padrão utilizado. 
+
+
+
+!image-20240503-170843.png|width=691,height=415,alt=""image-20240503-170843.png""!
+
+
+
+
+
+!image-20240503-170905.png|width=660,height=489,alt=""image-20240503-170905.png""!"
+03/05/2024 12:17;Bug;Interface Cidadão - Solicitação terminada em partes do processo não apresenta como solicitação incompleta;"Ao anexar documento e ir para tela de formulário e fechar sair da página. A solicitação não está sendo salva como incompleta. 
+
+
+
+!image-20240503-151817.png|width=1265,height=571,alt=""image-20240503-151817.png""!"
+03/05/2024 12:14;Bug;Interface Cidadão - Permitindo editar cpf e nome para solicitação própria;"Está permitindo editar nome e cpf para uma solicitação feita pela própria pessoa. 
+
+
+
+!image-20240503-151507.png|width=1253,height=495,alt=""image-20240503-151507.png""!"
+03/05/2024 08:33;Bug;Interface Cidadão - Duplicidade de senha para serviços síncronos;"Mesma senha para cidadãos diferentes no mesmo dia.
+
+
+
+!WhatsApp Image 2024-05-02 at 14.39.18.jpeg|width=1600,height=617,alt=""WhatsApp Image 2024-05-02 at 14.39.18.jpeg""!"
+30/04/2024 18:31;Bug;Área logada Cidadão - Erro ao tentar baixar documento trocado no chat;"Identificado que o erro acontece apenas para o cidadão, visto que já foi validado no backoffice que o erro para o atendente não acontece.
+
+
+
+!image-20240430-213221.png|width=1049,height=475,alt=""image-20240430-213221.png""!
+
+
+
+!image-20240430-213151.png|width=1027,height=169,alt=""image-20240430-213151.png""!"
+02/10/2023 11:35;Bug;Mensageria - Texto SMS com palavras cortadas;O SMS enviados estão com palavras cortadas devido aos caracteres especiais. Necessário ajustes de forma que o provedor de SMS recebe o texto sem caracteres especiais para não cortar o texto.
+26/04/2024 07:58;Bug;Mensageria - E-mail de revogação fora do padrão dos e-mails enviados;No e-mail de revogação o texto de Poupa Tempo Rio de Janeiro está cortado. Letras, cores, formatos do e-mail de revogação está diferente dos padrões de e-mail enviado e diferente do especificado.
+29/04/2024 20:13;Bug;Interface Cidadão - Monitoramento da funcionamento das API;API de consulta solicitações parou de funcionar e o sistema de monitoramento não identificou o problema e gerou alertas.
+26/04/2024 08:23;Bug;Interface Cidadão - Problema no formulário do serviço Minha Casa Minha Vida;Apresentando mensagem de erro ao tentar avançar no preenchimento do formulário.
+26/04/2024 12:02;Bug;Mensageria - Envio de e-mail de avaliação para serviço já avaliado;
+09/04/2024 20:22;Epic; - OCR;
+02/04/2024 10:14;Melhoria;Integração - Campo de endereço ter busca de endereço pela API do Correios;
+05/10/2023 17:15;Melhoria;Mensageria - Incluir e-mail e sms de aviso para os que não compareceram;Gostaria de incluir no fluxo um e-mail e sms para enviar aos cidadãos que agendaram mas não compareceram.
+06/10/2023 10:08;Melhoria;Mensageria - Incluir data e hora no assunto do e-mail;Inclusão da data e horário do atendimento no assunto do e-mail de confirmação, pois alguns smartphones marcam na agenda do aparelho.
+09/02/2024 11:15;Melhoria;Área logada Cidadão - Nome do serviço na área logada deve ser o mesmo da carta de serviço;Na consulta de meus agendamentos na área logada do Meu RJ está apresentando o nome do serviço que está cadastrado no GA e não o nome do serviço que o cidadão visualiza na carta de serviço. Necessário ajusta para que o cidadão visualize o mesmo nome da carta de serviço do Portal RJ.
+09/02/2024 12:18;Melhoria;Director - Incluir nos relatórios assíncronos e síncronos colunas e filtros de origem da solicitação;Incluir nos relatórios se a origem da solicitação foi pelo Portal Web ou pelo APP
+08/03/2024 07:38;Melhoria;Mensageria - Notificação por WhatsApp;"Desenvolver solução que permita utilizar o WhatsApp como canal de notificação de andamento dos serviços. 
+
+A definição de qual régua será feita no momento de implantação em produção conforme orientação da equipe de marketing."
+04/04/2024 10:59;Melhoria;Videoconferência - Apresentar mensagem de instabilidade de internet durante chamada;
+11/03/2024 12:03;Melhoria; - Centralização da avaliação.;
+08/03/2024 07:41;Melhoria;Atende - Customização de formulários;"Desenvolver possibilidade do usuário administrador configurar formulários de solicitação de serviços através de parâmetros.
+
+Os parâmetros devem ser seções e campos dos formulários. Exemplo, tenha seção de dados pessoais, dentro da seção possui uma lista de campos que o usuário pode escolher para compor ou não."
+11/03/2024 17:23;Melhoria;Interface Cidadão - Publicar banner do Poupa tempo no Portal RJ;
+14/03/2024 17:08;Melhoria;Interface Cidadão - Alertas para falta de acesso nos serviços ou aberturas de solicitações/agendamento;Solução de monitoramento de acesso nas páginas dos serviços da plataforma que gere alertas por sms e e-mail quando não ocorrer acesso dentro de dias e períodos de horários configurados. Exemplo: Páginas de serviços sem acesso durante 1h de segunda a sexta nos horários 8h-17h
+21/03/2024 06:32;Melhoria;Interface Cidadão - Acessar o serviço pela carta de serviço pelo IOS no navegador Safari;
+21/03/2024 18:53;Melhoria;Mensageria - Corpo do e-mail com duas opções de URL;"# Botão com url para cidadão retornar ao Portal e que ele encontrasse o acesso a solicitação.
+# Uma URL link que seria da chamada ficaria no corpo do e-mail"
+28/03/2024 18:22;Melhoria;Interface Cidadão - Alterar mensagem de serviço sem grade de agendamento;"Alterar a mensagem de serviço sem grade de agendamento conforme abaixo:
+""O serviço selecionado não possui agenda disponível no momento.
+Por favor, tente novamente mais tarde!""
+
+!WhatsApp Image 2024-03-28 at 8.22.57 AM.jpeg|width=802,height=1600,alt=""WhatsApp Image 2024-03-28 at 8.22.57 AM.jpeg""!"
+28/03/2024 16:03;Melhoria;Integração - Diário de Bordo - Incidentes no Portal RJ;"* [@Eduardo Soares de Oliveira|mailto:eduardo.oliveira@shopcidadao.com.br] enviar endereço do local onde serão registrados os incidentes exclusivos para este trabalho.
+* [@Eduardo Soares de Oliveira|mailto:eduardo.oliveira@shopcidadao.com.br] liberar acessos para as pessoas que ainda não tem acesso ao diário de bordo de incidentes do Portal RJ.
+* [@Eduardo Soares de Oliveira|mailto:eduardo.oliveira@shopcidadao.com.br] verificar com [@Fausto Manuel Tulengano|mailto:fausto.tulengano@shopcidadao.com.br] sua proposta de colocar um recurso de sua equipe dedicado para monitorar o portal."
+25/04/2024 11:48;Melhoria;Interface Cidadão - Pop-up, Página e template e-mail  sugerindo para o cidadão baixar o app quando o mesmo estiver acessando pelo celular.;[https://www.figma.com/file/TFTgfYU1VQ7FcEOWtZPpHL/%5BSQUAD-1%5D-Inova-RJ---UI%3A-Portal-RJ.GOV?type=design&node-id=1385%3A1055&mode=design&t=rqDWgoZ5uVPCZ03a-1|https://www.figma.com/file/TFTgfYU1VQ7FcEOWtZPpHL/%5BSQUAD-1%5D-Inova-RJ---UI%3A-Portal-RJ.GOV?type=design&node-id=1385%3A1055&mode=design&t=rqDWgoZ5uVPCZ03a-1|smart-link]
+21/03/2024 20:38;Melhoria;Mensageria - Possibilitar que cidadão com aplicativo Outlook consiga abrir o link do botão do e-mail;
+22/03/2024 09:07;Melhoria;Atende - Cancelamento de agendamentos com customização da mensagem de e-mail;"Desenvolver uma funcionalidade vinculada a um recurso para que os usuários administradores funcionais possam selecionar um agendamento ou selecionar todos os agendamentos feitos pelos cidadãos. Com opção de pesquisar por período de datas e horas, unidade, serviço, órgão, número do agendamento e cpf do cidadão. 
+
+Ao executar o cancelamento deverá abrir uma tela para o administrador descreve o conteúdo do texto com possibilidade de personalização através de um identificador (exemplo, #idcita#). 
+
+Este texto deverá ser inserido em um template pré configurado com as identidades visuais. Ao clicar em enviar, deverá apresentar uma mensagem de confirmação. 
+
+Nesta execução, ao invés de enviar o e-mail padrão de cancelamento quando ocorre pelo cidadão deverá enviar o e-mail deste processo."
+27/03/2024 09:29;Melhoria;Director - Incluir a informação do canal nos relatórios do director;"{quote}Incluir a opção ""Canal"" em filtro globais do Director. (Menus Relatório GA e Backoffice).
+Incluir a coluna ""Canal"" nos relátorios:{quote}
+
+* Backoffice>Relatório>Quantidade de serviços por tipo de finalização
+* Relatório GA>Satisfação do atendimento>Detalhe das avaliações por senha
+* Relatório GA>Serviços>Quantidade de serviços por tipo de finalização
+* Relatório GA>Panorama de senhas>Agendamentos"
+03/05/2024 14:17;Tarefa;OCR - Acompanhamento | OCR - QUIPUX;
+28/03/2024 15:36;Tarefa;Mar/24 - 2 Novos Serviços Assíncronos - Avaliar os impactos e o que precisa feito pelo lado da Quipux e Proderj para receber por integração da área logada;Avaliar os impactos e o que precisa feito pelo lado da Quipux e Proderj para utilizar o status solicitação incompleta para conclusão da etapa 1 do serviço “Abertura de Processos de escolas Extintas”.
+28/03/2024 15:34;Tarefa;Mar/24 - 2 Novos Serviços Assíncronos - Configurar o serviço “Abertura de Processos de escolas Extintas” em duas etapas;Configurar o serviço “Abertura de Processos de escolas Extintas” em duas etapas: 1) Cidadão abre solicitação enviado documentos/preenchendo formulário. Após aprovado pelo BO Digital inicia a etapa 2, onde o cidadão receberá o arquivo de conclusão pelo BO Digital na etapa 1 (formulário do órgão já preenchido). Inicialmente a assinatura será manual onde o cidadão deverá anexar o arquivo digitalizado, mas devem prever assinatura eletrônica como melhoria. Essa solicitação cai novamente para o BO Digital avaliar e baixar esse arquivo para anexar no sistema do órgão.
+05/03/2024 18:49;Tarefa;Mar/24 - 2 Novos Serviços Assíncronos - Templates SMS e e-mail para os novos serviços;"Procon - Atendimento Preliminar
+
+IMO
+Escola extinta"
+06/03/2024 09:04;Tarefa;Mar/24 - 2 Novos Serviços Assíncronos - Publicação da carta de serviços no Portal RJ;
+06/03/2024 09:04;Tarefa;Mar/24 - 2 Novos Serviços Assíncronos - Treinamento e liberação de acessos nos sistemas dos órgãos para atendimento aos novos serviços;
+06/03/2024 09:04;Tarefa;Mar/24 - 2 Novos Serviços Assíncronos - Envio dos dados de integração dos novos serviços com Portal RJ;
+07/03/2024 18:36;Tarefa;Mensageria - Relatório analítico de acesso nas mensagerias;"Usuários que estão abrindo e-mails
+Usuários que estão expcluindo e-mails
+Quantos e-mails estão caindo no spam
+Quantos usuários clicaram na URL do SMS
+e outros"
+06/03/2024 09:04;Tarefa;Mar/24 - 2 Novos Serviços Assíncronos - Configuração dos serviços na plataforma;"Procon
+16/abril - homologação e produção
+24/abril
+
+30-abril homologação e produção
+Escola extinta 08/maio
+
+IMO 29/maio"
+18/04/2024 15:15;Tarefa;Abril/24 - 12 Novos Serviços Síncronos - Treinamento e liberação de acessos nos sistemas do governo.;
