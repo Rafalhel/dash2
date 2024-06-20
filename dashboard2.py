@@ -57,17 +57,17 @@ jira_data = load_html_data('Jira (3).html')
 backlog_data = load_backlog_data('backlog.xlsx')
 
 # Exibir colunas do backlog para depuração
-st.write('Colunas disponíveis no backlog:', backlog_data.columns.tolist())
+# st.write('Colunas disponíveis no backlog:', backlog_data.columns.tolist())
 
 # Combinando dados do backlog com dados do Jira
 if '#JIRA\nCard' in backlog_data.columns:
     jira_data = jira_data.merge(backlog_data, left_on='Chave', right_on='#JIRA\nCard', how='left')
 else:
     st.error("A coluna '#JIRA\nCard' não está presente no backlog.")
-jira_data.to_csv('jira_data.csv', index=False, encoding='utf-8', sep=';')
+# jira_data.to_csv('jira_data.csv', index=False, encoding='utf-8', sep=';')
 # Filtros no sidebar
 st.sidebar.title('Filtros')
-tipo_selecionado_sidebar = st.sidebar.multiselect('Selecione o Tipo de Item (para gráficos)', jira_data['Tipo de item'].unique(), default=jira_data['Tipo de item'].unique())
+# tipo_selecionado_sidebar = st.sidebar.multiselect('Selecione o Tipo de Item (para gráficos)', jira_data['Tipo de item'].unique(), default=jira_data['Tipo de item'].unique())
 prioridade_selecionada = st.sidebar.multiselect('Selecione a Prioridade', jira_data['Prioridade'].unique(), default=jira_data['Prioridade'].unique())
 
 # Filtro para selecionar média ou total
